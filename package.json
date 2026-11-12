@@ -1,0 +1,44 @@
+{
+  "name": "surevax-cms",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "setup": "bash scripts/setup-worktree.sh",
+    "prune:worktrees": "bash scripts/prune-stale-worktrees.sh",
+    "dev": "pnpm --filter './apps/*' --parallel dev",
+    "build": "pnpm --recursive build",
+    "typecheck": "pnpm --recursive typecheck",
+    "test": "pnpm --filter @surevax/backend test",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:readiness": "READINESS=1 playwright test --project=readiness",
+    "test:e2e:report": "playwright show-report",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "gen:contracts": "pnpm --filter @surevax/backend gen:contracts",
+    "agent:docs": "bash scripts/check-agent-doc-sync.sh",
+    "agent:check": "bash scripts/check-agent-ready.sh",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "esbuild"
+    ]
+  },
+  "engines": {
+    "node": ">=22 <23",
+    "pnpm": ">=9.15 <10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.60.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "prettier": "^3.8.3",
+    "typescript-eslint": "^8.59.0"
+  }
+}

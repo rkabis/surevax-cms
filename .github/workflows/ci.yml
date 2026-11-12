@@ -1,0 +1,228 @@
+name: CI
+
+# Safety gate for PRs. Runs ONLY on pull_request — with fast-forward-only
+# auto-merge, the commits that land on main are the exact SHAs CI already
+# validated on the PR, so a separate `push: [main]` run would re-validate
+# identical commits for no added safety (it doubled Actions minutes per change).
+# Railway auto-deploys backend on push to main independently of this workflow;
+# bad migrations are caught at PR time by the integration job's db:deploy step.
+# Cloudflare Pages is not yet git-connected; frontend deploys are manual.
+#
+# Two static/DB jobs by design (not four): each job repeats the ~install +
+# build-shared preamble and is billed rounded UP to the whole minute, so for a
+# solo dev paying for minutes, fewer jobs > more parallelism. The former
+# `migrate` job folded into `test`; the former `frontend-test` job folded into
+# `build`. The `e2e` job stays separate — it boots the full running stack with
+# NODE_ENV=development + a browser, which can't share the vitest `test` runner.
+#
+# NOTE: job `name:` values below are the exact branch-protection required
+# contexts — do not rename without updating the required status checks on main.
+
+on:
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Install, typecheck, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Build shared package
+        # @surevax/shared must compile to dist/ before the backend builds —
+        # TS paths are compile-time only (see CLAUDE.md).
+        run: pnpm --filter @surevax/shared build
+
+      - name: Agent readiness check
+        # AGENTS.md/CLAUDE.md sync, format, zero-warning lint, Tailwind +
+        # design-system gates, route-authz / bare-db-writes / modeled-not-wired
+        # gates, recursive typecheck, recursive build.
+        run: pnpm agent:check
+
+      - name: Run frontend tests
+        # jsdom + MSW — no DB needed, so it rides on the build job instead of a
+        # separate runner (saves a full job preamble + per-job minute roundup).
+        run: pnpm --filter @surevax/frontend test
+
+  test:
+    name: Backend integration tests
+    # Only runs once the cheap static job is green — a typecheck/lint failure
+    # shouldn't spin up Postgres and burn service minutes.
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_DB: surevax_test
+          POSTGRES_USER: surevax
+          POSTGRES_PASSWORD: surevax_test_password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U surevax -d surevax_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql://surevax:surevax_test_password@localhost:5432/surevax_test
+      NODE_ENV: test
+      # Boot guards in apps/backend/src/shared/config/env.ts require these,
+      # with secrets ≥32 chars. Test-only fixtures.
+      COOKIE_SECRET: ci_cookie_secret_padding_to_32_chars_minimum
+      JWT_SECRET: ci_jwt_secret_padding_to_32_chars_minimum
+      JWT_ACCESS_SECRET: ci_jwt_access_secret_padding_to_32_chars_minimum
+      JWT_REFRESH_SECRET: ci_jwt_refresh_secret_padding_to_32_chars_minimum
+      CORS_ORIGIN: http://localhost:5173
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Build shared package
+        run: pnpm --filter @surevax/shared build
+
+      - name: Apply migrations (db:deploy — Railway parity)
+        # Mirrors Railway's startCommand. Catches column-ref / DDL bugs at PR
+        # time, before Railway tries to deploy on the post-merge main push.
+        run: pnpm --filter @surevax/backend db:deploy
+
+      - name: Re-apply migrations (idempotency smoke — M16)
+        # Every supplemental SQL file must be idempotent (CREATE OR REPLACE /
+        # IF NOT EXISTS / DROP IF EXISTS). A second db:deploy against the same
+        # DB exercises that — a hard-fail here would crash-loop a Railway
+        # restart. (Formerly its own `migrate` job; folded in to save a runner.)
+        run: pnpm --filter @surevax/backend db:deploy
+
+      - name: Seed smoke (fail-fast on schema/seed drift)
+        # Runs the seed standalone before vitest. If seed crashes here, the
+        # failure is labeled clearly instead of surfacing as vitest's "No test
+        # files found". vitest's globalSetup truncates + reseeds, so this extra
+        # run is ~3s overhead.
+        run: pnpm --filter @surevax/backend db:seed
+
+      - name: Seed runtime invariants (INV-2 / RLS-live / consent)
+        # A seed that RUNS is not a seed that is CORRECT. Probes the runtime
+        # representation, the demoted app role, and the consent precondition.
+        # See scripts/check-seed-runtime.sh.
+        run: bash scripts/check-seed-runtime.sh
+
+      - name: Run backend tests
+        run: pnpm --filter @surevax/backend test
+
+  e2e:
+    name: E2E (Playwright)
+    # Browser end-to-end against the FULL stack: the Vite frontend proxies
+    # /api to the Express backend, which talks to a seeded Postgres. Exercises
+    # real auth, tenant resolution, RLS GUCs, the audit trigger, and FEFO —
+    # the layer the jsdom+MSW frontend suite can't reach. Gated behind a green
+    # build like the integration job.
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_DB: surevax_test
+          POSTGRES_USER: surevax
+          POSTGRES_PASSWORD: surevax_test_password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U surevax -d surevax_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      # App + migrator both connect as the Postgres superuser here. RLS-as-a
+      # non-superuser is verified by the backend integration suite; the E2E
+      # job only needs the stack to run, so it skips the surevax_app role
+      # password plumbing.
+      DATABASE_URL: postgresql://surevax:surevax_test_password@localhost:5432/surevax_test
+      DATABASE_MIGRATOR_URL: postgresql://surevax:surevax_test_password@localhost:5432/surevax_test
+      # development posture (the only deployed posture today). NOT production —
+      # env.ts fail-closes on production with dev secrets.
+      NODE_ENV: development
+      PORT: '3000'
+      COOKIE_SECRET: ci_cookie_secret_padding_to_32_chars_minimum
+      JWT_SECRET: ci_jwt_secret_padding_to_32_chars_minimum
+      JWT_ACCESS_SECRET: ci_jwt_access_secret_padding_to_32_chars_minimum
+      JWT_REFRESH_SECRET: ci_jwt_refresh_secret_padding_to_32_chars_minimum
+      CORS_ORIGIN: http://localhost:5173
+      PLAYWRIGHT_BASE_URL: http://localhost:5173
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Build shared package
+        run: pnpm --filter @surevax/shared build
+
+      - name: Apply migrations
+        run: pnpm --filter @surevax/backend db:deploy
+
+      - name: Seed database
+        run: pnpm --filter @surevax/backend db:seed
+
+      - name: Install Playwright browser
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Run E2E tests
+        run: |
+          # Boot the full dev stack in the background (frontend proxies to backend).
+          pnpm --filter @surevax/backend dev > /tmp/backend.log 2>&1 &
+          pnpm --filter @surevax/frontend dev > /tmp/frontend.log 2>&1 &
+          # Wait for the backend (root /health is public) then the frontend.
+          for i in $(seq 1 60); do curl -sf http://localhost:3000/health >/dev/null 2>&1 && break; sleep 1; done
+          for i in $(seq 1 60); do curl -sf http://localhost:5173/ >/dev/null 2>&1 && break; sleep 1; done
+          curl -sf http://localhost:3000/health >/dev/null 2>&1 || { echo "backend did not start:"; cat /tmp/backend.log; exit 1; }
+          # Playwright reuses the already-running servers (reuseExistingServer).
+          pnpm exec playwright test
+
+      - name: Upload Playwright report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7

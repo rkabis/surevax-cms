@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "packages": {
+    "node": "22"
+  },
+  "steps": {
+    "build": {
+      "commands": ["pnpm --filter @surevax/shared build", "pnpm --filter @surevax/backend build"]
+    }
+  },
+  "deploy": {
+    "startCommand": "node apps/backend/dist/shared/db/migrate.js && node apps/backend/dist/index.js"
+  }
+}

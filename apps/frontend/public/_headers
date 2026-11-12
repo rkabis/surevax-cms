@@ -1,0 +1,25 @@
+# Cloudflare Pages headers for the SureVax CMS SPA.
+# H4 from the 2026-05-23 360 codebase review: SPA host shipped with no CSP,
+# no X-Frame-Options, no clickjacking / framing defense. This file is the
+# missing piece — Cloudflare Pages applies it to every response.
+#
+# Update CSP `connect-src` if the Railway backend URL changes; the SPA's
+# only legitimate XHR target is the API host.
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://*.up.railway.app https://api.surevax.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'
+
+# Cache the built assets aggressively — Vite emits hashed filenames so
+# content changes always produce a new URL.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Never cache the entrypoint HTML — clients must re-check on every load
+# so a new deploy is picked up without a hard refresh.
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate

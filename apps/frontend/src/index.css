@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── Theme identity (2026-06-12 revamp) ─────────────────────────────
+       SureVax's own palette — clinical teal primary on a faintly cool
+       canvas, with a dark ink-teal sidebar. Replaces the stock-shadcn
+       blue/white theme so the app reads as a clinical instrument, not a
+       generic SaaS template. Rules:
+       - `--primary` is the ONLY brand hue. Triage colors (below) stay
+         semantic and never follow brand changes.
+       - `--background` is intentionally 1 step off-white so `bg-card`
+         surfaces (tables, KPI cells, detail rails) read as layers.
+       - `--sidebar-*` drives the dark AppShell nav (PATTERNS.md
+         Pattern 19). Keep its contrast: foreground ≥ 80% lightness on
+         the 10%-lightness ink surface.
+       See PATTERNS.md "Theme identity tokens" for change protocol. */
+    --background: 200 27% 98%;
+    --foreground: 203 45% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 203 45% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 203 45% 10%;
+    --primary: 174 65% 27%;
+    --primary-foreground: 168 75% 97%;
+    --secondary: 190 25% 94%;
+    --secondary-foreground: 203 40% 15%;
+    --muted: 200 22% 95%;
+    --muted-foreground: 203 13% 41%;
+    --accent: 174 35% 93%;
+    --accent-foreground: 175 60% 16%;
+    --destructive: 0 74% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 200 22% 89%;
+    --input: 200 22% 86%;
+    --ring: 174 65% 32%;
+    --radius: 0.5rem;
+    --sidebar-background: 201 45% 10%;
+    --sidebar-foreground: 186 25% 92%;
+    --sidebar-primary: 172 52% 44%;
+    --sidebar-primary-foreground: 201 45% 8%;
+    --sidebar-accent: 199 38% 16%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 199 38% 16%;
+    --sidebar-ring: 172 52% 44%;
+
+    /* Clinical extensions — independent of --primary / --accent.
+       Status colors for severity stripe, triage badges, dot indicators.
+       See apps/frontend/docs/PATTERNS.md + COMPONENT-MAP.md. */
+    --triage-overdue: 12 75% 44%;
+    --triage-overdue-soft: 12 78% 95%;
+    --triage-due: 38 80% 52%;
+    --triage-due-soft: 42 80% 95%;
+    --triage-ok: 148 50% 38%;
+    --triage-ok-soft: 148 40% 95%;
+    --triage-info: 220 50% 45%;
+    --triage-info-soft: 220 35% 95%;
+  }
+}
+
+/* Convention utilities — emitted as plain CSS (not @layer components) so
+   Tailwind's content-purge doesn't strip them before the first caller
+   lands. Documented in apps/frontend/docs/PATTERNS.md. */
+.eyebrow {
+  font-family:
+    'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  /* rem, not px (2026-07-26): this was a hardcoded 10px — the KPI label on
+     every list page, below the app's own documented body floor and immune to
+     any change in the type scale. Matches `text-2xs` (11px) and now moves
+     with it. */
+  font-size: 0.6875rem;
+  line-height: 0.9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: hsl(var(--muted-foreground));
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dot[data-severity='overdue'] {
+  background: hsl(var(--triage-overdue));
+}
+.dot[data-severity='due'] {
+  background: hsl(var(--triage-due));
+}
+.dot[data-severity='ok'] {
+  background: hsl(var(--triage-ok));
+}
+.dot[data-severity='info'] {
+  background: hsl(var(--triage-info));
+}
+.dot[data-severity='muted'] {
+  background: hsl(var(--muted-foreground));
+}
+
+/* Severity stripe — 3 px inset left border on actionable list rows.
+   Apply via <TableRow data-severity="overdue" className="stripe">. */
+[data-severity='overdue'].stripe {
+  box-shadow: inset 3px 0 0 0 hsl(var(--triage-overdue));
+}
+[data-severity='due'].stripe {
+  box-shadow: inset 3px 0 0 0 hsl(var(--triage-due));
+}
+[data-severity='ok'].stripe {
+  box-shadow: inset 3px 0 0 0 hsl(var(--triage-ok));
+}
+[data-severity='info'].stripe {
+  box-shadow: inset 3px 0 0 0 hsl(var(--triage-info));
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    /* Root scale — the ONE lever that makes the whole UI bigger.
+       See the @media block below. */
+    font-size: 100%;
+  }
+
+  /* ── Root scale for the 27" clinic display ──────────────────────────
+     A 2560-wide logical desktop across a 27" panel is ~109 CSS px per inch
+     against the 96 px/inch the CSS pixel is defined at, so everything renders
+     ~12% smaller than "standard" before accounting for a front desk being
+     further from the screen than a laptop.
+
+     The 2026-07-26 type-scale bump raised `text-2xs/xs/sm` and fixed the TEXT,
+     but could not touch controls: button height (`h-8`/`h-9`), input height,
+     padding, gaps and icon sizes come from Tailwind's SPACING scale, not
+     `fontSize`. Buttons stayed 32px. Stepping the root is the only single
+     lever that moves all of it, because Tailwind's spacing scale is rem-based
+     (`h-8` = 2rem, `p-4` = 1rem) and `--radius` is already `0.5rem`.
+
+     Gated at `2xl` (1536px) so laptops keep the stock scale — this is the
+     Pattern 31 "one step at 2xl" idea applied once at the root instead of
+     primitive-by-primitive.
+
+     PREREQUISITE, already done: 88 hardcoded px values inside Tailwind
+     arbitrary values (`w-[360px]`, `grid-cols-[120px_1fr_140px]`, column
+     widths) were converted to rem so they scale too. Hairlines (<= 2px) stay
+     px deliberately — a 1px divider should be 1px at any scale. If you add a
+     new arbitrary pixel value above 2px, use rem or it will drift.
+
+     Tunable in one place. `112.5%` = 18px root. */
+  @media (min-width: 1536px) {
+    html {
+      font-size: 112.5%;
+    }
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Inter Variable is self-hosted via @fontsource-variable (main.tsx). */
+    font-family: 'Inter Variable', 'Inter', ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight;
+  }
+  /* Consistent focus ring across native + custom controls. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}

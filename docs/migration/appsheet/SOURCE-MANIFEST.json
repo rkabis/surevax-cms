@@ -1,0 +1,418 @@
+{
+  "manifestVersion": 1,
+  "observedDate": "2026-08-16",
+  "timezone": "Asia/Manila",
+  "classification": "restricted-clinical-source-locations-no-row-data",
+  "rules": [
+    "Do not commit source workbooks or patient rows.",
+    "Treat Drive file IDs and local hashes as locators, not proof of semantic correctness.",
+    "Refresh Drive metadata and export hashes at the migration freeze.",
+    "A local export is immutable evidence; a live Google Sheet is mutable operational state."
+  ],
+  "appsheetDatabase": {
+    "title": "surevax_gsheet_db",
+    "driveFileId": "18D6KXggNxmAliJwtDGcIDyKxWCDGuOkL4rKa3FQoI64",
+    "driveUrl": "https://docs.google.com/spreadsheets/d/18D6KXggNxmAliJwtDGcIDyKxWCDGuOkL4rKa3FQoI64/edit",
+    "mimeType": "application/vnd.google-apps.spreadsheet",
+    "driveParentFolderId": "11CcIeIWmAR6aphwbnFXCi3nnUmIQ-XC-",
+    "driveCreatedAtUtc": "2024-11-12T07:07:43.345Z",
+    "driveModifiedAtUtc": "2026-08-16T05:41:11.949Z",
+    "analysisReadStartedAgainstModifiedAtUtc": "2026-08-16T05:07:29.088Z",
+    "sourceDriftObservedDuringAnalysis": true,
+    "driveSizeBytes": 10636143,
+    "localExport": {
+      "path": "/Users/njvil/Downloads/surevax_gsheet_db (2).xlsx",
+      "sizeBytes": 19386423,
+      "modifiedAt": "2026-08-15T21:37:43+08:00",
+      "sha256": "00d002b0d2da31832e6832fdd51a5260b099555287cb4f1437d2925d16af072e"
+    },
+    "keySheets": [
+      "Patient",
+      "Immunization",
+      "Transactions",
+      "Remarks",
+      "ImmunizationBundle",
+      "ChargeAccounts",
+      "Vaccine",
+      "Branch",
+      "Nurse"
+    ],
+    "apiVisibleRevisions": [
+      {
+        "revisionId": "443648",
+        "modifiedAtUtc": "2026-08-14T13:05:20.569Z",
+        "modifiedAtPht": "2026-08-14T21:05:20.569+08:00"
+      },
+      {
+        "revisionId": "443696",
+        "modifiedAtUtc": "2026-08-15T00:04:24.278Z",
+        "modifiedAtPht": "2026-08-15T08:04:24.278+08:00",
+        "retrievalStatus": "content-retrieved-through-drive-connector"
+      },
+      {
+        "revisionId": "444783",
+        "modifiedAtUtc": "2026-08-15T13:08:52.274Z",
+        "modifiedAtPht": "2026-08-15T21:08:52.274+08:00"
+      },
+      {
+        "revisionId": "445029",
+        "modifiedAtUtc": "2026-08-16T03:34:28.121Z",
+        "modifiedAtPht": "2026-08-16T11:34:28.121+08:00"
+      },
+      {
+        "revisionId": "445124",
+        "modifiedAtUtc": "2026-08-16T05:24:08.033Z",
+        "modifiedAtPht": "2026-08-16T13:24:08.033+08:00",
+        "analysisNote": "source advanced while connector reconciliation was in progress"
+      },
+      {
+        "revisionId": "445181",
+        "modifiedAtUtc": "2026-08-16T05:41:11.890Z",
+        "modifiedAtPht": "2026-08-16T13:41:11.890+08:00",
+        "currentAtLastRevisionRead": true,
+        "analysisNote": "source advanced again during the cross-branch pre-cutover run"
+      }
+    ],
+    "revisionLimitations": [
+      "Drive API revision lists can be incomplete for large, frequently edited native Sheets.",
+      "Google can merge editor revisions.",
+      "Use the Sheets version-history UI and Make a copy for older auditable checkpoints; never restore the live source during evidence collection."
+    ]
+  },
+  "historicalDatabaseCandidates": [
+    {
+      "title": "Copy of surevax_gsheet_db - sept 9",
+      "driveFileId": "1X7hTgAdJXSL5A2MIY5axOGC5pAgV-D3FNtpuFLM1vWo",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1X7hTgAdJXSL5A2MIY5axOGC5pAgV-D3FNtpuFLM1vWo/edit",
+      "createdAtUtc": "2025-09-09T11:30:15.105Z",
+      "modifiedAtUtc": "2025-09-09T11:49:33.527Z",
+      "sizeBytes": 3525842,
+      "assessment": "strongest-visible-long-range-snapshot-candidate"
+    },
+    {
+      "title": "surevax_gsheet_db_copy",
+      "driveFileId": "18I1TrjxT1BPTbNF0N7kpgoVUF0yb0XFhRBTCB2UCv3o",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/18I1TrjxT1BPTbNF0N7kpgoVUF0yb0XFhRBTCB2UCv3o/edit",
+      "modifiedAtUtc": "2026-03-29T06:01:51.005Z",
+      "sizeBytes": 12803,
+      "assessment": "likely-partial-verify-before-use"
+    },
+    {
+      "title": "surevax_gsheet_db for ateneo",
+      "driveFileId": "1_FZfkbZ8vN-5EKU1HsyWWu53DcQd3oY3SoSa5004H2I",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1_FZfkbZ8vN-5EKU1HsyWWu53DcQd3oY3SoSa5004H2I/edit",
+      "modifiedAtUtc": "2025-07-15T16:08:29.788Z",
+      "sizeBytes": 332221,
+      "assessment": "likely-subset-or-sanitized-verify-before-use"
+    }
+  ],
+  "clinicTrackerFolder": {
+    "driveFolderId": "1mbIxnMpoDC_L1EWRLvnMrJtHojYH2QVE",
+    "driveUrl": "https://drive.google.com/drive/folders/1mbIxnMpoDC_L1EWRLvnMrJtHojYH2QVE"
+  },
+  "liveBranchProfile20260816": {
+    "status": "read-only-live-profile-provisional-not-a-cutover-snapshot",
+    "appsheetRevisionAtFinalRead": "445181",
+    "sourceDriftObserved": true,
+    "branchCount": 14,
+    "candidateTrackerRows": 26407,
+    "trackerRowAmountPhp": 36662058.38,
+    "amountMeaning": "parseable tracker-row amounts; not reconciled revenue, payment or administration",
+    "report": "docs/migration/appsheet/PRE-CUTOVER-READINESS-2026-08-16.md",
+    "branches": [
+      {
+        "branch": "Aguirre",
+        "selectedRange": "Manual Sales!A1:J4038",
+        "candidateRows": 4037,
+        "dateCoverage": "2025-01-05/2026-08-16",
+        "trackerRowAmountPhp": 5570332.25
+      },
+      {
+        "branch": "Alabang",
+        "selectedRange": "Manual Sales Tracker!A1:I412",
+        "candidateRows": 411,
+        "dateCoverage": "2026-05-16/2026-08-16",
+        "trackerRowAmountPhp": 763339.07
+      },
+      {
+        "branch": "Cainta",
+        "selectedRange": "Manual Sales Tracker!A1:J561",
+        "candidateRows": 558,
+        "dateCoverage": "2025-10-04/2026-08-16",
+        "trackerRowAmountPhp": 714836.15
+      },
+      {
+        "branch": "Cubao",
+        "selectedRange": "Manual Sales 2026!A1:I19",
+        "candidateRows": 18,
+        "dateCoverage": "2026-08-06/2026-08-16",
+        "trackerRowAmountPhp": 21688.58
+      },
+      {
+        "branch": "Holy Spirit",
+        "selectedRange": "Manual Sales!A1:I9028",
+        "candidateRows": 9027,
+        "dateCoverage": "2024-01-27/2026-08-16",
+        "trackerRowAmountPhp": 10866172.79
+      },
+      {
+        "branch": "Marikina",
+        "selectedRange": "January - March Manual Sales!A1:I1079",
+        "candidateRows": 1075,
+        "dateCoverage": "2026-01-14/2026-08-16",
+        "trackerRowAmountPhp": 1891405.33
+      },
+      {
+        "branch": "Maysilo",
+        "selectedRange": "Manual Sales!A1:K2499",
+        "candidateRows": 2498,
+        "dateCoverage": "2024-11-01/2026-08-16",
+        "trackerRowAmountPhp": 3413877.31
+      },
+      {
+        "branch": "Novaliches",
+        "selectedRange": "Manual Sales Nova!A1:I336",
+        "candidateRows": 329,
+        "dateCoverage": "2026-01-21/2026-08-15",
+        "trackerRowAmountPhp": 472164.3
+      },
+      {
+        "branch": "Pasig",
+        "selectedRange": "Daily Manual Sales!A1:I1796",
+        "candidateRows": 1215,
+        "dateCoverage": "2025-12-01/2026-08-15",
+        "trackerRowAmountPhp": 1940577.49
+      },
+      {
+        "branch": "Salcedo",
+        "selectedRange": "Manual Sales - Aug 2026!A2:H182",
+        "candidateRows": 178,
+        "dateCoverage": "2026-08-01/2026-08-16",
+        "trackerRowAmountPhp": 219474.72,
+        "historyStatus": "blocked-pending-40-tab-ownership-roster"
+      },
+      {
+        "branch": "San Juan",
+        "selectedRange": "Manual Sales!A1:I1527",
+        "candidateRows": 1523,
+        "dateCoverage": "2025-11-05/2026-08-16",
+        "trackerRowAmountPhp": 1907167.03
+      },
+      {
+        "branch": "Sta Mesa",
+        "selectedRange": "' Manual Sales'!A1:I10031",
+        "candidateRows": 34,
+        "dateCoverage": "2026-07-27/2026-08-15",
+        "trackerRowAmountPhp": 39557.16
+      },
+      {
+        "branch": "Taguig",
+        "selectedRange": "Manual Sales!A1:I3149",
+        "candidateRows": 2966,
+        "dateCoverage": "2025-03-16/2026-08-16",
+        "trackerRowAmountPhp": 4504829.08
+      },
+      {
+        "branch": "Timog",
+        "selectedRange": "August - Manual Sales!A1:I10031",
+        "candidateRows": 2538,
+        "dateCoverage": "2025-04-12/2026-08-16",
+        "trackerRowAmountPhp": 4336637.12,
+        "undatedRows": 21
+      }
+    ]
+  },
+  "clinicTrackers": [
+    {
+      "branch": "Aguirre",
+      "driveFileId": "1eJU8xi4OYsWtBWMSM-i6PPctAsKDP4C4F2rI_OoXdlc",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1eJU8xi4OYsWtBWMSM-i6PPctAsKDP4C4F2rI_OoXdlc/edit",
+      "driveModifiedAtUtc": "2026-08-16T00:36:25.796Z",
+      "candidateSheets": ["Manual Sales"],
+      "profiledCoverage": "2025-01-05/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Aguirre.xlsx",
+      "localSizeBytes": 764775,
+      "localSha256": "03e07a05177cb6fdba0d501dcef889c51597a3c39044d03ac1b1a6467324439a"
+    },
+    {
+      "branch": "Alabang",
+      "driveFileId": "1AYO484U1Ypp9cex81Xnavk04nvX8dNTvIWSnVg3m-Ss",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1AYO484U1Ypp9cex81Xnavk04nvX8dNTvIWSnVg3m-Ss/edit",
+      "driveModifiedAtUtc": "2026-08-16T01:22:27.849Z",
+      "candidateSheets": ["Manual Sales Tracker"],
+      "profiledCoverage": "2026-05-16/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Alabang.xlsx",
+      "localSizeBytes": 1720531,
+      "localSha256": "963398bf215af882ffa8f55bd536e04ec221a6bddf9eb891671d8daf6d7663bf"
+    },
+    {
+      "branch": "Cainta",
+      "driveFileId": "1xai-9RclG_OMiA4brcRXsdE_hPAdovPKQ0i73thWEkk",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1xai-9RclG_OMiA4brcRXsdE_hPAdovPKQ0i73thWEkk/edit",
+      "driveModifiedAtUtc": "2026-08-16T04:51:17.098Z",
+      "candidateSheets": ["Manual Sales Tracker"],
+      "profiledCoverage": "2025-10-04/2026-07-31",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Cainta.xlsx",
+      "localSizeBytes": 775700,
+      "localSha256": "3b19577bff1bdf417c6cd0dc9f639510ec7948e2f11dfa74c6cf217c89132773"
+    },
+    {
+      "branch": "Cubao",
+      "driveFileId": "1S-CRkWAD2is8nhGvMUNTc69FxYQAS7Y1qnaw_ShBUqA",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1S-CRkWAD2is8nhGvMUNTc69FxYQAS7Y1qnaw_ShBUqA/edit",
+      "driveModifiedAtUtc": "2026-08-16T09:17:01.007Z",
+      "candidateSheets": ["Manual Sales 2026"],
+      "selectedRange": "Manual Sales 2026!A1:Z6077",
+      "profiledCoverage": "2026-08-06/2026-08-16",
+      "profileStatus": "live-connector-profiled-provisional",
+      "connectorExportSizeBytes": 1425710,
+      "localPath": "/private/tmp/surevax-local-migration-start/cubao-drive-snapshot.json",
+      "localSha256": "c399c53bf6880f3717aad90d4bace51d65a4c7e1bdf37d2153f9f4914cebf6fc"
+    },
+    {
+      "branch": "Holy Spirit",
+      "driveFileId": "1RX_TNXGmK69cXtWmV8dDcSYeXMwYANl_zWhh0Cs1E_g",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1RX_TNXGmK69cXtWmV8dDcSYeXMwYANl_zWhh0Cs1E_g/edit",
+      "driveModifiedAtUtc": "2026-08-16T05:15:52.246Z",
+      "candidateSheets": ["Manual Sales"],
+      "profiledCoverage": "2024-01-27/2026-08-02",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Holy Spirit.xlsx",
+      "localSizeBytes": 865671,
+      "localSha256": "d3e168d026abac6ec268bbc6d17631a8670b6700cb399a1115bfd99cb57327a7"
+    },
+    {
+      "branch": "Marikina",
+      "driveFileId": "17K_SABdNm-FHkODx184YULL3-CnCVsUJtfsAYZuat4U",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/17K_SABdNm-FHkODx184YULL3-CnCVsUJtfsAYZuat4U/edit",
+      "driveModifiedAtUtc": "2026-08-16T05:09:14.845Z",
+      "candidateSheets": ["January - March Manual Sales"],
+      "profiledCoverage": "2026-01-14/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Marikina.xlsx",
+      "localSizeBytes": 1580086,
+      "localSha256": "02912c02fc33de7d491285ebc8fd2119550b156ead89384e149de46cc853a728"
+    },
+    {
+      "branch": "Maysilo",
+      "driveFileId": "1cNroKY1f8p8NsMl1aOZmEdQgR1kcCkGtJlQ58BZ2tVE",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1cNroKY1f8p8NsMl1aOZmEdQgR1kcCkGtJlQ58BZ2tVE/edit",
+      "driveModifiedAtUtc": "2026-08-16T04:55:31.805Z",
+      "candidateSheets": ["Manual Sales"],
+      "profiledCoverage": "2024-11-01/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Maysilo.xlsx",
+      "localSizeBytes": 395345,
+      "localSha256": "e673b6543a48ab7928bb41efb020305cb48a827633611f7a02fb4bb3079670d2"
+    },
+    {
+      "branch": "Novaliches",
+      "driveFileId": "1HgkkDmfbADgWj6q5493Mwy30YDI_vR1v3yDDfYJ9npk",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1HgkkDmfbADgWj6q5493Mwy30YDI_vR1v3yDDfYJ9npk/edit",
+      "driveModifiedAtUtc": "2026-08-15T23:48:53.428Z",
+      "candidateSheets": ["Manual Sales Nova"],
+      "profiledCoverage": "2026-01-21/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Novaliches.xlsx",
+      "localSizeBytes": 1468891,
+      "localSha256": "6d053c35e4ca13504df013f10475b9de7c7b88c9132df0f446e577b9602763ae"
+    },
+    {
+      "branch": "Pasig",
+      "driveFileId": "1jBeZC70LVxT21FjsLti7Tn6smm4VJIiVrCN1nPffMXM",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1jBeZC70LVxT21FjsLti7Tn6smm4VJIiVrCN1nPffMXM/edit",
+      "driveModifiedAtUtc": "2026-08-16T04:29:10.667Z",
+      "candidateSheets": ["Daily Manual Sales"],
+      "profiledCoverage": "2025-12-01/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Pasig.xlsx",
+      "localSizeBytes": 1611200,
+      "localSha256": "9f29c7525a42c7a56c1bd8c8eaa9e514d2379b92d5c6701ea20216cb3053b8b9"
+    },
+    {
+      "branch": "Salcedo",
+      "driveFileId": "1n2EOX0gB9TLqWX9EXLLimSsMV-W4FwNC2a1KgQ1Mg8c",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1n2EOX0gB9TLqWX9EXLLimSsMV-W4FwNC2a1KgQ1Mg8c/edit",
+      "driveModifiedAtUtc": "2026-08-16T03:22:02.042Z",
+      "candidateSheets": ["monthly Manual Sales sheets"],
+      "profiledCoverage": "2025-03-17/2026-08-02",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker Salcedo.xlsx",
+      "localSizeBytes": 1074374,
+      "localSha256": "efbc703615304e3f513c9491c8044047ecb7febafc645942c428af97793ba931"
+    },
+    {
+      "branch": "San Juan",
+      "driveFileId": "18eyrI2cLr_ao8U0j8mgkfJ1xLVLY94HSN87yHiUT4yw",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/18eyrI2cLr_ao8U0j8mgkfJ1xLVLY94HSN87yHiUT4yw/edit",
+      "driveModifiedAtUtc": "2026-08-16T01:56:39.529Z",
+      "candidateSheets": ["Manual Sales"],
+      "profiledCoverage": "2025-11-05/2026-08-02",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - San Juan.xlsx",
+      "localSizeBytes": 655139,
+      "localSha256": "67daf2a4b2b8ec7d1606bd1546ca33b43553090828bb8fe390a25935c63e4a37"
+    },
+    {
+      "branch": "Sta Mesa",
+      "driveFileId": "1JitUwlj1Y6uoxAofThkiCDzk3rV0IdSUn2UTFllL8NY",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1JitUwlj1Y6uoxAofThkiCDzk3rV0IdSUn2UTFllL8NY/edit",
+      "driveModifiedAtUtc": "2026-08-15T12:57:18.100Z",
+      "candidateSheets": [" Manual Sales", "March Manual Sales"],
+      "profiledCoverage": "current-sheet-only-2026-07-27/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Sta Mesa.xlsx",
+      "localSizeBytes": 1441246,
+      "localSha256": "29c93f61e1cc7cbab2b780f7408e8b6eb7baa1866255e37d543a400fc77b4518"
+    },
+    {
+      "branch": "Taguig",
+      "driveFileId": "1wBtr9PenK65OacPD-1c6_KFjvcsGTM-R7VCsPZtN-sg",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/1wBtr9PenK65OacPD-1c6_KFjvcsGTM-R7VCsPZtN-sg/edit",
+      "driveModifiedAtUtc": "2026-08-16T04:53:15.412Z",
+      "candidateSheets": ["Manual Sales"],
+      "profiledCoverage": "2025-03-16/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Taguig.xlsx",
+      "localSizeBytes": 636579,
+      "localSha256": "92810cd61d270c800af0ebf17a3fa297c0f48661f2101aa78d20ccb1eaff5b55"
+    },
+    {
+      "branch": "Timog",
+      "driveFileId": "13MTeIuz2czxUxt1m0X2mrUaUWDM6om5x5kqZSsq1c-E",
+      "driveUrl": "https://docs.google.com/spreadsheets/d/13MTeIuz2czxUxt1m0X2mrUaUWDM6om5x5kqZSsq1c-E/edit",
+      "driveModifiedAtUtc": "2026-08-16T05:16:08.027Z",
+      "candidateSheets": ["August - Manual Sales"],
+      "profiledCoverage": "approximately-2025-04-12/2026-08-01",
+      "localPath": "/Users/njvil/Downloads/Manual Sales Tracker - Timog.xlsx",
+      "localSizeBytes": 2083965,
+      "localSha256": "f1b55437de009dc016124ea1310c9fd1cbb111c2ecaf5f52fe40147ff9e3120a"
+    }
+  ],
+  "connectorExportRun": {
+    "observedDate": "2026-08-16",
+    "format": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "result": "14-of-14-exported",
+    "fileReferences": "authenticated-connector-output-not-committed",
+    "cutoverStatus": "provisional-live-export-sources-not-frozen",
+    "details": "CUBAO-LIVE-RECONSTRUCTION-2026-08-16.md"
+  },
+  "quarantinedCopiedSheets": [
+    {
+      "sheet": "Manual Sales",
+      "branches": ["Alabang", "Marikina", "Novaliches", "Pasig", "Timog"],
+      "profileContentHashPrefix": "6dab8a062d10904f",
+      "reason": "identical-content-copied-history-branch-owner-not-established"
+    },
+    {
+      "sheet": "November Manual Sales",
+      "branches": ["Alabang", "Marikina", "Novaliches", "Pasig", "Timog"],
+      "profileContentHashPrefix": "c7301a6419dd2959",
+      "reason": "identical-content-copied-history-branch-owner-not-established"
+    },
+    {
+      "sheet": "March Manual Sales",
+      "branches": ["Sta Mesa", "Timog"],
+      "profileContentHashPrefix": "a599ed2dfd4ec7a0",
+      "reason": "identical-content-copied-history-branch-owner-not-established"
+    }
+  ],
+  "excludedDriveFiles": [
+    {
+      "title": "Manual Sales Tracker - Template",
+      "driveFileId": "1y2rW-FP8nC8Hm5coGUAEY-t0kLE4QrcxUPmzGJhZR7o",
+      "reason": "template-not-clinic-evidence"
+    }
+  ]
+}

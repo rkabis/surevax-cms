@@ -1,0 +1,1566 @@
+{
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/eslint.config.mjs": {
+    "mtime": 1778942069.8123322,
+    "hash": "0c59859a0b33d349f74e279bcc72ab11"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/index.ts": {
+    "mtime": 1778942069.8216777,
+    "hash": "4a1c9756b168c0d0297889c46eb5f972"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/utils/displayId.ts": {
+    "mtime": 1778942069.8262875,
+    "hash": "461933fb5d255403bf9ae03983c76265"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/common.ts": {
+    "mtime": 1778942069.8223372,
+    "hash": "75f665cefd28407fbac718e15bdf72bf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/encounter.ts": {
+    "mtime": 1778942069.8238997,
+    "hash": "eaf5ee3328c3615f973418c0ca997d90"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/transaction.ts": {
+    "mtime": 1778942069.8250844,
+    "hash": "75c0367ac88aa0801a6f3dda7a06dd9d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/patient.ts": {
+    "mtime": 1778942069.824706,
+    "hash": "109f09874280029c315009abea9eb993"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/enums.ts": {
+    "mtime": 1778942069.824088,
+    "hash": "f2aefe5a42c3768b53c8502b985aed0b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/auth.ts": {
+    "mtime": 1778942069.8218203,
+    "hash": "b697dc10e3482a503a93104d37cc0f2b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/clinical-order.ts": {
+    "mtime": 1778942069.8222468,
+    "hash": "599bde2c21b929d347305fedc116c59e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/packages/shared/src/schemas/staffTimeLog.ts": {
+    "mtime": 1778942069.8248022,
+    "hash": "f9ba795d24069425493236bbbdd2d866"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/tailwind.config.ts": {
+    "mtime": 1778942069.787435,
+    "hash": "8e144fb386ab27a23b516ae6828b4b90"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/vite.config.ts": {
+    "mtime": 1778942069.7876935,
+    "hash": "70c99e635fdec0be5d467356014277b8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/vitest.config.ts": {
+    "mtime": 1778942069.78779,
+    "hash": "c0e9bc9fe7d251bf138b6d4c2adff153"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/postcss.config.js": {
+    "mtime": 1778942069.6876593,
+    "hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/App.tsx": {
+    "mtime": 1778942069.6889277,
+    "hash": "35e6c9dcb12c75f9139ae1cf218a8dd0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/main.tsx": {
+    "mtime": 1778942069.777597,
+    "hash": "dfa71c7776f1ad9114ae70e29bfa2253"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/vite-env.d.ts": {
+    "mtime": 1778942069.786621,
+    "hash": "085761a5ddc2a7b0e3c28a2f1c5d29f3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/PatientsPage.tsx": {
+    "mtime": 1778942069.7370577,
+    "hash": "940a355e3212edef731afb2e228a50ac"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/api.ts": {
+    "mtime": 1778942069.7374368,
+    "hash": "1eb347c4a63fa14ea4c5f3e7a0585edb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/PatientDetail.tsx": {
+    "mtime": 1778942069.7407537,
+    "hash": "0eed10ca25a1037694ea65eb799cc468"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/ConsentsTab.tsx": {
+    "mtime": 1778942069.7389407,
+    "hash": "30c44d2eae94f7a333b5200f90a9488a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/PepScheduleTab.tsx": {
+    "mtime": 1778942069.7420723,
+    "hash": "cfba4bec8b9666da0a0176897829b748"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/EmergencyContactsTab.tsx": {
+    "mtime": 1778942069.7392855,
+    "hash": "9b3702182f0071945ba6e83d8538348f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/PatientList.tsx": {
+    "mtime": 1778942069.7418053,
+    "hash": "b2ceb3ae0bdd25340bb281c24b153134"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/PatientDuplicatePanel.tsx": {
+    "mtime": 1778942069.7410395,
+    "hash": "6a8faa551c4507d84764b462dfbac21c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/ConditionsCard.tsx": {
+    "mtime": 1778942069.7385504,
+    "hash": "6917e00c90735b1e7ad2c87a4ab2f03c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/ExternalImmunizationsTab.tsx": {
+    "mtime": 1778942069.74042,
+    "hash": "f72cbf0293a615999cd6fe88fe473900"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/AllergiesCard.tsx": {
+    "mtime": 1778942069.7381184,
+    "hash": "5d080122a0480ec06e755e44c0586f21"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/PatientForm.tsx": {
+    "mtime": 1778942069.7414627,
+    "hash": "c9636a704848d5b31660c5eaea723ea4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/RegionCascadeSelect.tsx": {
+    "mtime": 1778942069.7425842,
+    "hash": "4991cfe5dd9d30cdbbab3e24add2d0b2"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/patients/components/AddressAutocomplete.tsx": {
+    "mtime": 1778942069.7378676,
+    "hash": "b73658710df3d9075a7e49bc0a99d7e1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/settings/SettingsPage.tsx": {
+    "mtime": 1778942069.7489254,
+    "hash": "14db9cc38b814fa9089063469403aa9e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/api.ts": {
+    "mtime": 1778942069.7240312,
+    "hash": "d21ffa4bc73c1d4dfbb8504b4896e13b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/components/BranchKiosk.tsx": {
+    "mtime": 1778942069.7255657,
+    "hash": "34f3acf7b4e1019d07e1dba535f1583c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/components/DrawerOpenDialog.tsx": {
+    "mtime": 1778942069.7264035,
+    "hash": "89fd47f53593d4af253c35d02e9b3635"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/components/DrawerCloseDialog.tsx": {
+    "mtime": 1778942069.7259567,
+    "hash": "9b1ef9ee9a938039cbfbe309c3bf6358"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/components/AuthorizingProviderSelect.tsx": {
+    "mtime": 1778942069.7242897,
+    "hash": "ee6e680b04d118c9bc1d41e98a59a10e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/components/BranchDayBanner.tsx": {
+    "mtime": 1778942069.724647,
+    "hash": "10787b90e66acb6cd77c3263f68a053c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/branch/components/BranchDayOpenPrompt.tsx": {
+    "mtime": 1778942069.725164,
+    "hash": "5b2375e6cfacde8abfdab992c0e02053"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/scheduled-orders/api.ts": {
+    "mtime": 1778942069.743853,
+    "hash": "a913b8f4adbb4d664a1ad903f5af3bb6"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/scheduled-orders/ScheduledOrdersPage.tsx": {
+    "mtime": 1778942069.7431622,
+    "hash": "75f7ff66529e4fce3e8d02b390bae299"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/scheduled-orders/components/ScheduledOrderDetail.tsx": {
+    "mtime": 1778942069.7461114,
+    "hash": "683ca6bade9adb38d8b50d5cf421310a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/scheduled-orders/components/AdministerDialog.tsx": {
+    "mtime": 1778942069.7441669,
+    "hash": "2d8ed9386691500b099cc7c2b8f530d6"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/scheduled-orders/components/RescheduleDialog.tsx": {
+    "mtime": 1778942069.7443554,
+    "hash": "46c21aa354d6ffa91a6f313b7321ece4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/appointments/AppointmentsPage.tsx": {
+    "mtime": 1778942069.7194126,
+    "hash": "d562f68cb5b33d0e30e7235ed813b858"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/appointments/api.ts": {
+    "mtime": 1778942069.7195494,
+    "hash": "dfc94dc16fb81a4a89f29c65821e6004"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/appointments/components/AppointmentDetail.tsx": {
+    "mtime": 1778942069.7198977,
+    "hash": "1d8bf0340346f4017a683f3597ac20f7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/auth/context.tsx": {
+    "mtime": 1778942069.7236273,
+    "hash": "23332dc02507d2b2c2a4e79f1cbc9685"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/auth/components/LoginPage.tsx": {
+    "mtime": 1778942069.7235107,
+    "hash": "3ae6b8399034c1be4da1c7c4e80a084b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/shift/api.ts": {
+    "mtime": 1778942069.7490704,
+    "hash": "d9deed3e141071ada075e8d1c35bd1bc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/shift/context.tsx": {
+    "mtime": 1778942069.7505774,
+    "hash": "f88fa0c9470a739106ae319a519b2720"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/shift/components/ClockInModal.tsx": {
+    "mtime": 1778942069.7505,
+    "hash": "a80e885fe25af870ceea01481ad5ab9a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/shift/components/ClockInBanner.tsx": {
+    "mtime": 1778942069.7496924,
+    "hash": "2f5e9e19a22ced328778c5c56140b4a6"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/usersApi.ts": {
+    "mtime": 1778942069.7168472,
+    "hash": "0c6a8fbf785bf6913eb0bf0d4d2c3fcf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/PayerProfilesPage.tsx": {
+    "mtime": 1778942069.7072723,
+    "hash": "d837e36312c0ed8dc9783020e14d04b7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/claimsApi.ts": {
+    "mtime": 1778942069.7095888,
+    "hash": "255349368d78ee10653afe9d1db182db"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/approvalsApi.ts": {
+    "mtime": 1778942069.7084,
+    "hash": "244659cadf49953707d426285277b5b3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/NotificationTemplateDialog.tsx": {
+    "mtime": 1778942069.7057862,
+    "hash": "42fe4fc93a369b03a0cf49f794ea21c3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/UsersPage.tsx": {
+    "mtime": 1778942069.708052,
+    "hash": "112c5043bd4e536c0ffec96ad66f9616"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/payerProfilesApi.ts": {
+    "mtime": 1778942069.7163758,
+    "hash": "386e7659d9305bbbe4abdd17c5c1f810"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/recallsApi.ts": {
+    "mtime": 1778942069.7167046,
+    "hash": "e8e02bf2ee4c4598c3585f6eb4274288"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/ProductRecallsPage.tsx": {
+    "mtime": 1778942069.70767,
+    "hash": "2b7f93354f3e8b1cf2e7d78013ee36d9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/NotificationsPage.tsx": {
+    "mtime": 1778942069.7063875,
+    "hash": "2f9d67301db3f3fa6b4c08f4433d3038"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/AuditPage.tsx": {
+    "mtime": 1778942069.7050643,
+    "hash": "44c993a5b8f8963229d4fdef21c95848"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/AttendancePage.tsx": {
+    "mtime": 1778942069.704636,
+    "hash": "347bc87299f9d8fd5668324111e78303"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/notificationsApi.ts": {
+    "mtime": 1778942069.715229,
+    "hash": "2c41b80807d6c6c33d3b3e00d58f26c8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/NotificationTemplatesPage.tsx": {
+    "mtime": 1778942069.7060978,
+    "hash": "beb1208ee9d13eecf5ced965a199a6c9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/attendanceApi.ts": {
+    "mtime": 1778942069.708716,
+    "hash": "910cd6d3ddb35da6e297d8f1194169a6"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/PartnerLabsPage.tsx": {
+    "mtime": 1778942069.7068293,
+    "hash": "a5feeb303c6365a9afc60fbe7a3bb374"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/ClaimsPage.tsx": {
+    "mtime": 1778942069.7054315,
+    "hash": "e86e7c895972f2ee58eb03f3a6900f5c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/auditApi.ts": {
+    "mtime": 1778942069.7089994,
+    "hash": "1d3e12c092d60b3fb58cd9b455136394"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/partnerLabsApi.ts": {
+    "mtime": 1778942069.7162552,
+    "hash": "0152983a241b88bd3fe9db6b475666ea"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/ApprovalsPage.tsx": {
+    "mtime": 1778942069.7011118,
+    "hash": "ac87a4ffdaf31107a9661e43e8e87308"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/UserCreateForm.tsx": {
+    "mtime": 1778942069.7147171,
+    "hash": "64b9547101505eeed55796aaa7cc727e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/PayerProfileDetail.tsx": {
+    "mtime": 1778942069.714149,
+    "hash": "2cb6e3b7dbe3d6431d6a29afa7712aac"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/NotificationDetail.tsx": {
+    "mtime": 1778942069.713154,
+    "hash": "b77370a2c7206b5cb0632376af033aef"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/ProductRecallDetail.tsx": {
+    "mtime": 1778942069.7144566,
+    "hash": "d3964d4d8a2b533a7e7a6ec8a4699e38"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/PartnerLabDetail.tsx": {
+    "mtime": 1778942069.7139194,
+    "hash": "4a93d6d4896250806322051a9ad59698"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/ClaimDetail.tsx": {
+    "mtime": 1778942069.7128007,
+    "hash": "c1b789f09fb0e2e0d8de26bca61b3aa9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/ApprovalDetail.tsx": {
+    "mtime": 1778942069.709987,
+    "hash": "c3d64c4d55849bf739a51d012f008e9f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/UserDetail.tsx": {
+    "mtime": 1778942069.7149665,
+    "hash": "a0086b7f9317fcec76be70da61147783"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/AttendanceDetail.tsx": {
+    "mtime": 1778942069.7105086,
+    "hash": "72b097a7f71283b6ce5b6939b7359066"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/admin/components/AuditDetail.tsx": {
+    "mtime": 1778942069.7108185,
+    "hash": "559f8f51e62ef3d5a0c93cd6ba9e28ba"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/cold-chain/ColdChainPage.tsx": {
+    "mtime": 1778942069.7282808,
+    "hash": "a02f2ad2a2980b871b6f330818beb6a4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/adverse-events/api.ts": {
+    "mtime": 1778942069.717613,
+    "hash": "3dc51170d6569683443de09be5b0da71"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/adverse-events/AdverseEventsPage.tsx": {
+    "mtime": 1778942069.7174072,
+    "hash": "6e58a97fb53a75ba8af8226745c12681"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/adverse-events/components/ReportAdverseEventDialog.tsx": {
+    "mtime": 1778942069.7184331,
+    "hash": "339420855789c98007422c67b9bbd826"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/adverse-events/components/UpdateAdverseEventDialog.tsx": {
+    "mtime": 1778942069.7189183,
+    "hash": "b194d5d080f5baa298991a567657059e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/adverse-events/components/AdverseEventDetail.tsx": {
+    "mtime": 1778942069.7180972,
+    "hash": "0450fd03e26f227395820e34cb744259"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/dashboard/NurseWidgets.tsx": {
+    "mtime": 1778942069.728949,
+    "hash": "b8b006d52c0a46f576e4bba96a916f68"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/dashboard/api.ts": {
+    "mtime": 1778942069.7291486,
+    "hash": "f0b321fc90ba299928e8a422ee0101d8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/dashboard/DashboardPage.tsx": {
+    "mtime": 1778942069.7286646,
+    "hash": "4f78e96ef5ca9b529a5241388fada3aa"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/totals.ts": {
+    "mtime": 1778942069.7661688,
+    "hash": "5f3f461ce751d08949a587b417be8474"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/api.ts": {
+    "mtime": 1778942069.7564719,
+    "hash": "d0c0ca0bfda75c62e04b9566cbc79f18"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/TransactionsPage.tsx": {
+    "mtime": 1778942069.7560313,
+    "hash": "369ec7bd358e78200b4f2b076c9b07fc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/TransactionsCreatePage.tsx": {
+    "mtime": 1778942069.7558415,
+    "hash": "8114fbda5692fb9d2ebc8a1ec3144186"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/TransactionReceiptPage.tsx": {
+    "mtime": 1778942069.7554653,
+    "hash": "1a82c9f73f35af04177af4e309d2b343"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/lib.ts": {
+    "mtime": 1778942069.7660143,
+    "hash": "912798a5f0bdefe7e0b581488f4daf46"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/RefundDialog.tsx": {
+    "mtime": 1778942069.7627797,
+    "hash": "cd0e4a6d29de74f008da462ad960d263"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/VoidDialog.tsx": {
+    "mtime": 1778942069.7654824,
+    "hash": "3b85ab98fe32e8b01cfbdb3a5267ebd8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/AcknowledgementReceipt.tsx": {
+    "mtime": 1778942069.7567282,
+    "hash": "a0bb2bb02a834d57cb6ef3d5766750e5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/PrintOptionsDialog.tsx": {
+    "mtime": 1778942069.7594457,
+    "hash": "513b33c19c7d7ee7c96b95cb74623120"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/AddPaymentDialog.tsx": {
+    "mtime": 1778942069.7573023,
+    "hash": "37d7f659bb896d653b31953b483f2b22"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/TenderRail.tsx": {
+    "mtime": 1778942069.7636564,
+    "hash": "ac01e43e88072892d1ca4289322545a6"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/ApplyPrepaymentDialog.tsx": {
+    "mtime": 1778942069.7577627,
+    "hash": "68fdd30cdb932edddbff3aade06edab4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/transactions/components/TransactionDetail.tsx": {
+    "mtime": 1778942069.764149,
+    "hash": "2ca414b407fe71493216df57e5b3af7b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/inventory/InventoryPage.tsx": {
+    "mtime": 1778942069.734423,
+    "hash": "88f6bd4b61e3d0c49aab9076e5ccecd1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/inventory/api.ts": {
+    "mtime": 1778942069.7347636,
+    "hash": "2cc0d6f33d3b52ad60e4f613582b9ccc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/inventory/components/InventoryDetail.tsx": {
+    "mtime": 1778942069.73512,
+    "hash": "f37acad55fcbb49b840d272d0b227756"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/api.ts": {
+    "mtime": 1778942069.730695,
+    "hash": "cd3eca62a5485928e881a81dcca0d390"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/EncountersPage.tsx": {
+    "mtime": 1778942069.7300658,
+    "hash": "f39205fa14554d40b48d99f5349332c5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/VitalsDemoPage.tsx": {
+    "mtime": 1778942069.73053,
+    "hash": "c08e80a727ab0540da66395126ddd724"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/components/BiteAssessmentPanel.tsx": {
+    "mtime": 1778942069.7310843,
+    "hash": "58af737310336068a9755a3f70ea326b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/components/EncounterList.tsx": {
+    "mtime": 1778942069.7336795,
+    "hash": "031beef0a222dae051688779c1d8a008"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/components/VitalsPanel.tsx": {
+    "mtime": 1778942069.733952,
+    "hash": "3da09346db9839b839db88fc19f0fb00"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/components/BiteAssessmentDemo.tsx": {
+    "mtime": 1778942069.7308261,
+    "hash": "378ebbc69b3eab07fc068b6a056085be"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/components/EncounterForm.tsx": {
+    "mtime": 1778942069.7332573,
+    "hash": "ec31b337c19ce552b14a64984723d1e2"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/encounters/components/EncounterDetail.tsx": {
+    "mtime": 1778942069.7313848,
+    "hash": "176b59e1c2d0337ed88497c0431843c8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/lab-orders/api.ts": {
+    "mtime": 1778942069.73566,
+    "hash": "aa0b112f9703bf77e8a212b0d3f2cd07"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/lab-orders/format.ts": {
+    "mtime": 1778942069.7364504,
+    "hash": "dd7fdf803d905948479cedcc27c87ef0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/lab-orders/LabOrdersPage.tsx": {
+    "mtime": 1778942069.7354627,
+    "hash": "b583b4b078f9a1a469ea7244e9317d98"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/lab-orders/components/LabOrderDetail.tsx": {
+    "mtime": 1778942069.7360253,
+    "hash": "2fb707560541b5b94efe9edd1b635637"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/clinical-orders/api.ts": {
+    "mtime": 1778942069.7271678,
+    "hash": "6b2943adcb5fb84d436d04a59b3bb761"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/clinical-orders/ClinicalOrdersPage.tsx": {
+    "mtime": 1778942069.7267125,
+    "hash": "21a727b2b723ad4b56b4cb91b5719495"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/clinical-orders/components/ClinicalOrderDetail.tsx": {
+    "mtime": 1778942069.727825,
+    "hash": "d9b66fb679bc5fc73424f51e5362e1f1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/day-summary/api.ts": {
+    "mtime": 1778942069.729925,
+    "hash": "f59fdfe89c29bbf98fb1f6c86d146caa"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/day-summary/DaySummaryPage.tsx": {
+    "mtime": 1778942069.7295058,
+    "hash": "bc451115b6a197ab102bd942cfc84155"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/standing-orders/InitiateProtocolPage.tsx": {
+    "mtime": 1778942069.7512262,
+    "hash": "16399860e393b10091a13596f2d3f8f0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/standing-orders/api.ts": {
+    "mtime": 1778942069.7523923,
+    "hash": "856abff81ee3adbac6c01815446086f3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/standing-orders/StandingOrdersPage.tsx": {
+    "mtime": 1778942069.751825,
+    "hash": "1490248675538b17b6e4e219c33c313d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/standing-orders/components/TemplatePicker.tsx": {
+    "mtime": 1778942069.7542608,
+    "hash": "b714271b13a1a551df2799a41228589b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/standing-orders/components/InitiateProtocolSheet.tsx": {
+    "mtime": 1778942069.7528207,
+    "hash": "8f493ef80f45257ab744d63173de5636"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/standing-orders/components/StandingOrderDetail.tsx": {
+    "mtime": 1778942069.7536483,
+    "hash": "78633151bb734b3d40167beac75d7aad"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/services/api.ts": {
+    "mtime": 1778942069.747067,
+    "hash": "c50a52b7eac93a7a20340f47c2909a8e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/services/ServicesPage.tsx": {
+    "mtime": 1778942069.7469702,
+    "hash": "ec21923122903e1dd73e43da3ecd9f17"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/services/components/ServiceDetail.tsx": {
+    "mtime": 1778942069.7485435,
+    "hash": "8e52b8f8e74d25da9e72ff9e7dac0a74"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/services/components/CreateServiceDialog.tsx": {
+    "mtime": 1778942069.7478607,
+    "hash": "a6eef8cc1fd845062379dc6677bdd47c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/reports/ReportsPage.tsx": {
+    "mtime": 1778942069.7428322,
+    "hash": "4d1999369f3b0e7a6e26e86566ea61f3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/api.ts": {
+    "mtime": 1778942069.720704,
+    "hash": "a4e916bd4508b15a1068fd8ca8070483"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/StepRail.tsx": {
+    "mtime": 1778942069.7205892,
+    "hash": "12b6ef657258454896688b51c68c3f37"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/context.tsx": {
+    "mtime": 1778942069.7213867,
+    "hash": "6d36f3059679fe44df91f56269457aad"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/ArrivalsPage.tsx": {
+    "mtime": 1778942069.7202945,
+    "hash": "6d023bb84dc28dc91d86684a3292eb19"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/use-advance-shortcut.ts": {
+    "mtime": 1778942069.7231493,
+    "hash": "5b6cc8c17040ecffe7d47b170922095c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/steps/Step2Encounter.tsx": {
+    "mtime": 1778942069.7223055,
+    "hash": "63e177b8e9def2e265dcf67312235495"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/steps/Step1Identify.tsx": {
+    "mtime": 1778942069.7217674,
+    "hash": "7f5ac43cb165a6c8ae426fd4cf75a6ed"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/steps/Step3Protocol.tsx": {
+    "mtime": 1778942069.7225833,
+    "hash": "0ec0f8f01e8c45bf9ba41e3f5cf845f1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/features/arrivals/steps/StepDone.tsx": {
+    "mtime": 1778942069.7229548,
+    "hash": "87f6362c510b08350ba964886a909662"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/components/AppShell.tsx": {
+    "mtime": 1778942069.7796383,
+    "hash": "94d61052f691fc88f9b92b4e286f9e98"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/components/ComingSoon.tsx": {
+    "mtime": 1778942069.7813723,
+    "hash": "f99efdb96636d22f5bacf8dff91fb654"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/components/shortcuts.ts": {
+    "mtime": 1778942069.7820523,
+    "hash": "32e99031ee91cf57cdc8bfa9dcd4f628"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/hooks/useAttachments.ts": {
+    "mtime": 1778942069.7849188,
+    "hash": "c860981ef7afa614c7bfffcb68d4f70f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/lib/sensitive.ts": {
+    "mtime": 1778942069.786532,
+    "hash": "fad6a334e5930055335387edd46657dd"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/lib/money.ts": {
+    "mtime": 1778942069.786298,
+    "hash": "8ca3850db8eded7a44307692a3d6267a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/lib/format.ts": {
+    "mtime": 1778942069.7859087,
+    "hash": "80e8d34b94ec3a6af0857d985f66dd35"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/lib/sensitive.test.ts": {
+    "mtime": 1778942069.7864387,
+    "hash": "743f2a7329886193d018ad4928898d09"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/lib/formatBytes.ts": {
+    "mtime": 1778942069.7860215,
+    "hash": "82ae92b5c5f4d63d84002d388eaab113"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/shared/lib/api-base.ts": {
+    "mtime": 1778942069.7850783,
+    "hash": "33a6c86a6b0d4f44a7aa9acbd115e154"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/alert-dialog.tsx": {
+    "mtime": 1778942069.6940649,
+    "hash": "0ded445d104ac7754987a72bcf7c80a8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/tabs.tsx": {
+    "mtime": 1778942069.699701,
+    "hash": "0d0de33f7dab2ac76ab507852f6740f5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/card.tsx": {
+    "mtime": 1778942069.6962156,
+    "hash": "6f33832f6c06958a02e0dc85830fa530"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/form-section.tsx": {
+    "mtime": 1778942069.698042,
+    "hash": "c0c1135eb5169a5dc626bf64e53536d7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/sheet.tsx": {
+    "mtime": 1778942069.6994097,
+    "hash": "3bac9d459decce60fcaf6c6213e1a376"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/empty-state.tsx": {
+    "mtime": 1778942069.6977491,
+    "hash": "f46be99d8d4f569a47ef43be407d63a0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/scroll-area.tsx": {
+    "mtime": 1778942069.6990435,
+    "hash": "d8d1a46a23ce44431227371fa07b7583"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/resizable.tsx": {
+    "mtime": 1778942069.6989386,
+    "hash": "6050a86e9b28fa7a80b9922fb70ced69"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/label.tsx": {
+    "mtime": 1778942069.6988506,
+    "hash": "cdef7a64e67b8a22e8fc278217fcb7fd"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/attachment-list.tsx": {
+    "mtime": 1778942069.6951704,
+    "hash": "a7d0bf0bf76c9beb923aa9240ea50310"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/tooltip.tsx": {
+    "mtime": 1778942069.7000198,
+    "hash": "5291a47ec2b381c57be91fd654cde93d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/alert.tsx": {
+    "mtime": 1778942069.6941457,
+    "hash": "ab218a6d35dbeebc0f8a90be4d882438"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/command.tsx": {
+    "mtime": 1778942069.6969676,
+    "hash": "b74e541e36a4aeb2a504fd413c90ab09"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/avatar.tsx": {
+    "mtime": 1778942069.695491,
+    "hash": "e5fc7005dfd2a442c9810f64fe820074"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/acronym-hint.tsx": {
+    "mtime": 1778942069.6939468,
+    "hash": "eebe3dbe8b49328df3e5d5b1a346ed9a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/dialog.tsx": {
+    "mtime": 1778942069.697233,
+    "hash": "aeab420a0cee1d5c3d367ece46119411"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/badge.tsx": {
+    "mtime": 1778942069.6955884,
+    "hash": "dfe37e7c3d683540e33265a446a09764"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/attachment-dropzone.tsx": {
+    "mtime": 1778942069.6946537,
+    "hash": "007efe53f31379491242a2ff667c0c21"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/table.tsx": {
+    "mtime": 1778942069.699622,
+    "hash": "93ac4c0eb7d21fc5f381e96fb1f33cc8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/separator.tsx": {
+    "mtime": 1778942069.6992645,
+    "hash": "ead9ff68c0b3cc5e93d5e6bce99a5fd9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/button.tsx": {
+    "mtime": 1778942069.6959486,
+    "hash": "cf8f160d99ca25e49d968f38e05d342e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/toast.tsx": {
+    "mtime": 1778942069.699898,
+    "hash": "58e5d69689b8cc72ac873906c74c741d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/checkbox.tsx": {
+    "mtime": 1778942069.6964862,
+    "hash": "7db433d172098b0a5f74ad8d48825831"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/dropdown-menu.tsx": {
+    "mtime": 1778942069.697625,
+    "hash": "f9900b618a9e5d509d1ea625a27ca242"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/select.tsx": {
+    "mtime": 1778942069.6991751,
+    "hash": "645f2e3a64edc9ce9e926645f0701fc5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/textarea.tsx": {
+    "mtime": 1778942069.6997871,
+    "hash": "07272d53842bf7ee3333e27946990d0f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/input.tsx": {
+    "mtime": 1778942069.6987686,
+    "hash": "bc9682ce46ddaffc0ebc724f123e77bf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/skeleton.tsx": {
+    "mtime": 1778942069.6995182,
+    "hash": "ed931c46e4f2aa36d8a5d41cc74e7073"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/ui/form.tsx": {
+    "mtime": 1778942069.6986618,
+    "hash": "42ef9356a42ee436a2e59c0754a3f1c8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/PageToolbar.tsx": {
+    "mtime": 1778942069.6929097,
+    "hash": "c8139e33081a525f0260f5bdabfd311f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/PageHeader.tsx": {
+    "mtime": 1778942069.6925557,
+    "hash": "17e16857c891ac3c0854da7d7ebab249"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/DetailSheet.tsx": {
+    "mtime": 1778942069.6900022,
+    "hash": "d939e27579b3c949c80bd2d6f6a0830a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/FormSectionHeader.tsx": {
+    "mtime": 1778942069.6909044,
+    "hash": "a7ca14a7cf45fa8b72b51e191fb41148"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/TableCard.tsx": {
+    "mtime": 1778942069.6932714,
+    "hash": "1f77d04cc0be3d949141b893e8b2f05e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/KpiStrip.tsx": {
+    "mtime": 1778942069.691792,
+    "hash": "86efe0de72e401eee8a5c2ead3a462f9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/KpiCell.tsx": {
+    "mtime": 1778942069.6913924,
+    "hash": "7ed530461b8848768fefe1541c5d036a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/ListEmpty.tsx": {
+    "mtime": 1778942069.69216,
+    "hash": "cfcc59f7f244626a85a06bbeee386fc4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/index.ts": {
+    "mtime": 1778942069.6935482,
+    "hash": "9f17bab67d3d3e9483341ef54537b836"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/components/layout/ErrorBanner.tsx": {
+    "mtime": 1778942069.6905262,
+    "hash": "a278c70055b215289bb7520644f76860"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/status.ts": {
+    "mtime": 1778942069.7723606,
+    "hash": "104d460664fc8484a914741e7b6f90e3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/apiErrors.ts": {
+    "mtime": 1778942069.767178,
+    "hash": "06b8ca0bc0b08882852d958909f1e00f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/utils.ts": {
+    "mtime": 1778942069.776158,
+    "hash": "bd7f1534696295bfbab094ac93447322"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/useRecentList.ts": {
+    "mtime": 1778942069.774561,
+    "hash": "6d4e174211a093c08160ecf9c80c9dfb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/apiFetch.ts": {
+    "mtime": 1778942069.7673225,
+    "hash": "3215acc27b8c1a0184280b2563433fc7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/escpos/commands.ts": {
+    "mtime": 1778942069.7688315,
+    "hash": "77042af62f2dc61e75449f5756ecbfc8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/escpos/receipt.ts": {
+    "mtime": 1778942069.7708757,
+    "hash": "dc246442cdcac7e0498e2060a1b5eebd"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/escpos/transport.ts": {
+    "mtime": 1778942069.771212,
+    "hash": "d3ac64da92f1e3a54e3f1e5087ffca73"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/lib/escpos/index.ts": {
+    "mtime": 1778942069.7705362,
+    "hash": "cd209b2f9587fb208d540c6987ee9c50"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/src/data/philippine-locations.ts": {
+    "mtime": 1778942069.7004478,
+    "hash": "27728365c8dcc8eb77865a8b1946d302"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle.config.ts": {
+    "mtime": 1778942069.635624,
+    "hash": "889c0d55264b7ca569a3094dd02ddfd4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/vitest.config.ts": {
+    "mtime": 1778942069.6862345,
+    "hash": "33f2805b786ceca665c26930f4c3f4d0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/auth.test.ts": {
+    "mtime": 1778942069.6848047,
+    "hash": "4adcbcabc0bafe018c068ce06f6068c1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/audit.test.ts": {
+    "mtime": 1778942069.6846871,
+    "hash": "333dfd9da4e4f253f95472007c56aa7e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/transactions.test.ts": {
+    "mtime": 1778942069.6859024,
+    "hash": "e533ece044151874722b7a82e635a336"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/money.test.ts": {
+    "mtime": 1778942069.6856403,
+    "hash": "77feb393ac2ab22ec89c61582592f260"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/csrf.test.ts": {
+    "mtime": 1778942069.6848872,
+    "hash": "4d3eccb13e7e8747db92f9e4117a2695"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/inventory-fefo.test.ts": {
+    "mtime": 1778942069.6855617,
+    "hash": "147f9bb9afc8a355db621113adcd1eba"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/unit/idempotency.test.ts": {
+    "mtime": 1778942069.686077,
+    "hash": "9e76040d6378e4a70dc623b1450d8497"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/integration/rls-multi-tenant.test.ts": {
+    "mtime": 1778942069.685087,
+    "hash": "f32b1bbd496d98f96333015d33e4f391"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/integration/tenant-resolution.test.ts": {
+    "mtime": 1778942069.6854625,
+    "hash": "ac0ccf60f7573309078565d919b081f5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/integration/status-history-triggers.test.ts": {
+    "mtime": 1778942069.6851943,
+    "hash": "04032836c535ed6629767e8417d5dcbc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/tests/setup/global-setup.ts": {
+    "mtime": 1778942069.6857722,
+    "hash": "55c28d77d4f69f01e590078fcb91fea5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/app.ts": {
+    "mtime": 1778942069.641798,
+    "hash": "4a1782d5633cf64d8f946f8a886f8d98"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/index.ts": {
+    "mtime": 1778942069.6418924,
+    "hash": "abe3d4d5dfea047811845c4a3a7491a5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/requireRole.ts": {
+    "mtime": 1778942069.679193,
+    "hash": "21e4b3726ef651839aa25907596da482"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/validate.ts": {
+    "mtime": 1778942069.681016,
+    "hash": "221c569a1202b906903324ef465a0162"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/phiAccessLog.ts": {
+    "mtime": 1778942069.6779232,
+    "hash": "e6c5dd26db305160123d18ee4605df04"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/idempotency.ts": {
+    "mtime": 1778942069.6774638,
+    "hash": "e461918773f49e90700c57658e0b30bc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/csrf.ts": {
+    "mtime": 1778942069.6772125,
+    "hash": "a94834182e3339692b73bd5bb3dcbc25"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/error.ts": {
+    "mtime": 1778942069.677315,
+    "hash": "bdbc3b8f760487d2a0de9e6702db35bb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/tenant.ts": {
+    "mtime": 1778942069.6803758,
+    "hash": "3d266affdec36e2982a28066ad044a18"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/middleware/auth.ts": {
+    "mtime": 1778942069.677119,
+    "hash": "6d2e231e1accb5b01d97720a9a657148"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/config/env.ts": {
+    "mtime": 1778942069.6743045,
+    "hash": "a66ba5aa7ce8e134f09de9941b0070d7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/utils/displayId.ts": {
+    "mtime": 1778942069.6815612,
+    "hash": "665925e0fc7cebdfa5cecb1514eac765"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/utils/money.ts": {
+    "mtime": 1778942069.6817567,
+    "hash": "8ca3850db8eded7a44307692a3d6267a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/utils/logger.ts": {
+    "mtime": 1778942069.6816719,
+    "hash": "f11219f7d33862907c2c8e64a6fdfd24"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/lib/domainEvents.ts": {
+    "mtime": 1778942069.676374,
+    "hash": "3e41e71a2d1456b0af65e4e7f498a3c3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/lib/pricing.ts": {
+    "mtime": 1778942069.676796,
+    "hash": "1e347c4091a2191720c8432ff597c983"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/db/schema.ts": {
+    "mtime": 1778942069.6751833,
+    "hash": "cd867faa22555226e7c584a982877413"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/db/migrate.ts": {
+    "mtime": 1778942069.6745703,
+    "hash": "c9ba2f83244540c7f3ffd59776dd2700"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/db/withTenantTx.ts": {
+    "mtime": 1778942069.6760812,
+    "hash": "5786cd6667995ec180ac191ba395668d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/db/seed.ts": {
+    "mtime": 1778942069.6758595,
+    "hash": "6f506a9d797e9574ea7069834595dba7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/db/userViews.ts": {
+    "mtime": 1778942069.6759682,
+    "hash": "079a89fbb1bac45f7af2aa90a1664c1b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/shared/db/index.ts": {
+    "mtime": 1778942069.6744711,
+    "hash": "b4aae3a960ea138dbc3fe79cafff058c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/phiAccessLogRetention.ts": {
+    "mtime": 1778942069.6843657,
+    "hash": "67e81c6dad3ad90742e6294f21b0ca24"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/auditPartitionRotate.ts": {
+    "mtime": 1778942069.6820269,
+    "hash": "83bde249ce06a126572e95a417b45633"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/notificationsDispatcher.ts": {
+    "mtime": 1778942069.6842415,
+    "hash": "84593535815f23a64a727923965f00f5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/domainEventsPublisher.ts": {
+    "mtime": 1778942069.6840856,
+    "hash": "d3d16fca3a94e487abd4f23010a17b41"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/analyticsRefresh.ts": {
+    "mtime": 1778942069.681925,
+    "hash": "2cdbc27fdfea338c84c5e800292b1aed"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/domainEventConsumers/notificationConsumer.ts": {
+    "mtime": 1778942069.6839116,
+    "hash": "ffb7f462ca98476860a271b7d34ba305"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/workers/domainEventConsumers/analyticsConsumer.ts": {
+    "mtime": 1778942069.6835654,
+    "hash": "5d57d2b7cd1f11ae16a955255b566805"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/patients/routes.ts": {
+    "mtime": 1778942069.6664612,
+    "hash": "e2c8d6f2670d2c893badda4963985a54"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/patients/db.ts": {
+    "mtime": 1778942069.6648576,
+    "hash": "07a505f5d7210089c880ef62bcee18cf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/staff_time_logs/routes.ts": {
+    "mtime": 1778942069.67097,
+    "hash": "49faad8da83c9bcbb49b46eb7ad3cabf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/staff_time_logs/db.ts": {
+    "mtime": 1778942069.6707778,
+    "hash": "baa78b8b9dd94a4b8b37d519c38afe64"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/staff_time_logs/service.ts": {
+    "mtime": 1778942069.6711235,
+    "hash": "5ef2facfebf2b738ac6b0822cba3a4f6"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/branch/routes.ts": {
+    "mtime": 1778942069.655554,
+    "hash": "efe9638ea4761b6638ad81148145da80"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/branch/db.ts": {
+    "mtime": 1778942069.6552706,
+    "hash": "90860609c12e8204ab973faca93eb438"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/adverse_events/routes.ts": {
+    "mtime": 1778942069.651595,
+    "hash": "bfc9ef8addd01482d13d1408ed1a43c8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/adverse_events/db.ts": {
+    "mtime": 1778942069.6512845,
+    "hash": "d77c2b5321122e069740c80712385fbf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/appointments/routes.ts": {
+    "mtime": 1778942069.6519673,
+    "hash": "18116f4590ba45e4e46835305fd974e5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/appointments/db.ts": {
+    "mtime": 1778942069.6517947,
+    "hash": "85475f9765305930a9fd38533ce589a4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/auth/routes.ts": {
+    "mtime": 1778942069.6548533,
+    "hash": "acf1da7c33e5be8e259158fa98d1f0a0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/auth/db.ts": {
+    "mtime": 1778942069.6546538,
+    "hash": "b3356ad69cfa32731629d4646b2fe119"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/auth/service.ts": {
+    "mtime": 1778942069.6551073,
+    "hash": "a88d9c1f87de57ba8b425b42e66f5181"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/places/routes.ts": {
+    "mtime": 1778942069.6677175,
+    "hash": "ba29f34e9556350ab4599d9bd11f8095"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/service_catalog/routes.ts": {
+    "mtime": 1778942069.6701841,
+    "hash": "bf30e388288ce6c2f342fec76fa9a77f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/service_catalog/db.ts": {
+    "mtime": 1778942069.6700408,
+    "hash": "addb709e6ef68f6925c415ecc135377b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/standing_orders/routes.ts": {
+    "mtime": 1778942069.67162,
+    "hash": "fceb8e0d11c36ba9a650732733d618ad"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/standing_orders/db.ts": {
+    "mtime": 1778942069.671406,
+    "hash": "e1b26a3ffcded1cc49e1626a7d67b855"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/standing_orders/service.ts": {
+    "mtime": 1778942069.6721203,
+    "hash": "61456563e10750b582ce05934856adc0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/notificationTemplates.ts": {
+    "mtime": 1778942069.6509368,
+    "hash": "d75c0bdf6a124a190bc2f0f1b7e3d93a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/claims.ts": {
+    "mtime": 1778942069.6498907,
+    "hash": "be2eb805d422b3feb5a3f8a18964d692"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/attendance.ts": {
+    "mtime": 1778942069.6447508,
+    "hash": "389d297435f35558ff58fbf0ea7a0c9f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/users.ts": {
+    "mtime": 1778942069.6510732,
+    "hash": "4137b682e4972770afc2da34ed3c2bf0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/approvals.ts": {
+    "mtime": 1778942069.6425118,
+    "hash": "f9738303d3380a4b1d3c37959ec03e07"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/branches.ts": {
+    "mtime": 1778942069.6462548,
+    "hash": "f1eebfe7e4abfd3eb50623398bc484d7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/admin/audit.ts": {
+    "mtime": 1778942069.6460614,
+    "hash": "b470dbd85a00bf11eee73d67336a7d55"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/cash_drawer/routes.ts": {
+    "mtime": 1778942069.6563473,
+    "hash": "3003ea9b29630aa32f1f78ab1b2ae734"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/cash_drawer/db.ts": {
+    "mtime": 1778942069.6560524,
+    "hash": "61373e0bc1272082e6eb0849ec5bfaf9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/lab_orders/routes.ts": {
+    "mtime": 1778942069.6605453,
+    "hash": "485e411a22813db696be554d0f380c21"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/lab_orders/db.ts": {
+    "mtime": 1778942069.6604302,
+    "hash": "9553e80baffdae60eeb086bb20802ad1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/payer_profiles/routes.ts": {
+    "mtime": 1778942069.6669152,
+    "hash": "a3e43ae4b6afe5a8c72958026b9efdb3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/payer_profiles/db.ts": {
+    "mtime": 1778942069.666698,
+    "hash": "a469302bfa8c90371a22dd3fd2b1a353"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/scheduled_orders/routes.ts": {
+    "mtime": 1778942069.6694584,
+    "hash": "cc6c138e6331c5358a50c3b8cea86905"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/scheduled_orders/auditWrite.ts": {
+    "mtime": 1778942069.6686575,
+    "hash": "cf7093469ef1212cf1490165885146e4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/scheduled_orders/db.ts": {
+    "mtime": 1778942069.6691444,
+    "hash": "b7627b76cd443b14e4711fadd1142335"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/scheduled_orders/service.ts": {
+    "mtime": 1778942069.6697044,
+    "hash": "528a2e925623c875767fb68b8b741f18"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/scheduled_orders/dateMath.ts": {
+    "mtime": 1778942069.6687493,
+    "hash": "72b158bc1893b3fe65163b4d268f8087"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/dashboard/routes.ts": {
+    "mtime": 1778942069.6568158,
+    "hash": "0898d4e88a008fb3c263fe420e45d49b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/dashboard/db.ts": {
+    "mtime": 1778942069.6567292,
+    "hash": "0b042fb26de63d3233d3f27b2f6896fb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/transactions/routes.ts": {
+    "mtime": 1778942069.6735208,
+    "hash": "c66ac0feec41bc80e18b653b88490643"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/transactions/db.ts": {
+    "mtime": 1778942069.673156,
+    "hash": "9f46670aacf91d4c60ddbd9f2b2c18bd"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/transactions/service.ts": {
+    "mtime": 1778942069.6738033,
+    "hash": "e349e94a1fa3998585490f2e0f5a20ee"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/partner_laboratories/routes.ts": {
+    "mtime": 1778942069.6615436,
+    "hash": "44c4584323063185cefe569976bafa79"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/partner_laboratories/db.ts": {
+    "mtime": 1778942069.661445,
+    "hash": "6422db8ef418925452cc6317f1a25ef3"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/audit/routes.ts": {
+    "mtime": 1778942069.6542811,
+    "hash": "1c5f953683de543358a715ac2dccab74"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/product_recalls/routes.ts": {
+    "mtime": 1778942069.668502,
+    "hash": "b6f38dbd4a486915df7eb5267c0a2093"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/product_recalls/db.ts": {
+    "mtime": 1778942069.668293,
+    "hash": "30a2efbb1592144d09f4acce3864e4a0"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/inventory/routes.ts": {
+    "mtime": 1778942069.6602309,
+    "hash": "41722fb2f7cd115ac54df8469da9303b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/inventory/db.ts": {
+    "mtime": 1778942069.6592226,
+    "hash": "19d55f897e73ef32423ec0371a13884f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/inventory/fefo.ts": {
+    "mtime": 1778942069.659478,
+    "hash": "ce56b0ddc73c1947ec9dc22cb5fb57e4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/day_summary/routes.ts": {
+    "mtime": 1778942069.6576283,
+    "hash": "daf0590097748b220f9b2a2ac4a3847c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/day_summary/db.ts": {
+    "mtime": 1778942069.6573348,
+    "hash": "d54399e117415a2cb41ef88e271ceb4b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/day_summary/service.ts": {
+    "mtime": 1778942069.657983,
+    "hash": "0ec87fb24d57083a429037afb44f40da"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/encounters/routes.ts": {
+    "mtime": 1778942069.6583436,
+    "hash": "f2d3d7350f2ea8d6aba10bff0031e8a5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/encounters/db.ts": {
+    "mtime": 1778942069.658199,
+    "hash": "99fa017551cb9afb525bf483cde63eae"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/attachments/routes.ts": {
+    "mtime": 1778942069.653886,
+    "hash": "11a4b5769e9d8358dcc184607ae2132d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/attachments/db.ts": {
+    "mtime": 1778942069.6536186,
+    "hash": "a905c2db3bdd6b780660b4360cfd9ebd"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/shifts/routes.ts": {
+    "mtime": 1778942069.670481,
+    "hash": "efa202c4c58d7ed8de137d4c9e401c28"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/shifts/db.ts": {
+    "mtime": 1778942069.6703947,
+    "hash": "43fc1ffd21134b4290a5ecc2cbf76f43"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/fhir/routes.ts": {
+    "mtime": 1778942069.6588185,
+    "hash": "d5ff2bbca8eefb9213bb7dfc897fcfb2"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/fhir/db.ts": {
+    "mtime": 1778942069.6584785,
+    "hash": "66ff02b9e0123acae930cc8c27719ad1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/notifications/routes.ts": {
+    "mtime": 1778942069.6612961,
+    "hash": "ee801fabb1b685a22c23fbb445bdf68a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/notifications/db.ts": {
+    "mtime": 1778942069.6609411,
+    "hash": "201383f0146a8898a4c4e1218581f905"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/arrivals/routes.ts": {
+    "mtime": 1778942069.6534142,
+    "hash": "e97ca3bbc0167be92a2f7553cd435883"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/src/modules/arrivals/db.ts": {
+    "mtime": 1778942069.6526356,
+    "hash": "dfeccedb56342971df709079cbc44bc2"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0010_products_categories_bundles.sql": {
+    "mtime": 1778942069.6388688,
+    "hash": "10e1b2ab5d91a5ad654cfb55a14991bb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0006_fhir_views.sql": {
+    "mtime": 1778942069.637569,
+    "hash": "1651cc6949c73550357da78d23683e54"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0007_retention_procs.sql": {
+    "mtime": 1778942069.6377757,
+    "hash": "4401cc49ed7b229ee7fdcafc7cfa6a92"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0009_day_summary_snapshots.sql": {
+    "mtime": 1778942069.6384819,
+    "hash": "6d7f61fcf9e4db04ef5ff8efb4a8f73b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0003_invariants.sql": {
+    "mtime": 1778942069.6371572,
+    "hash": "dfeb93acabbe9f7891fc2833cbbae3ba"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0011_finalize_product_abstraction.sql": {
+    "mtime": 1778942069.6392548,
+    "hash": "81cd8226556be021b40caf90eeb9d62e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0002_audit_and_redaction.sql": {
+    "mtime": 1778942069.636821,
+    "hash": "248a60d11bdb7eddf2d90aa0d659aa3b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0004_immutability_and_generated.sql": {
+    "mtime": 1778942069.6372976,
+    "hash": "21a966ebf8a9e2311f2ea5be947b185f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0001_extensions_and_rls.sql": {
+    "mtime": 1778942069.6362925,
+    "hash": "8a4d431bd67c7919a9b202bd8e4e257e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0005_modern_pg.sql": {
+    "mtime": 1778942069.6374543,
+    "hash": "89caecadf0ca6ef854c8652086393baa"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0000_initial.sql": {
+    "mtime": 1778942069.6359587,
+    "hash": "42439cb42e5f3571c36dac9c8ae5baf9"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/backend/drizzle/0008_add_patient_region.sql": {
+    "mtime": 1778942069.6381254,
+    "hash": "b9f575a2dd6ba4894727e1f428cea70c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docker-compose.dev.yml": {
+    "mtime": 1778942069.8005872,
+    "hash": "2892cb934b37bffca41d3242505f476e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/TODO.md": {
+    "mtime": 1778942069.6349835,
+    "hash": "f73cc4a4809983f3d71253a1945fbd3d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/README.md": {
+    "mtime": 1778942069.634818,
+    "hash": "0a24b415313d146b6b61625e4a587ca7"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/FUTURE-IMPROVEMENTS.md": {
+    "mtime": 1778942069.6346567,
+    "hash": "71b59c879ffe6e599c69c52a287ff97e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/CLAUDE.md": {
+    "mtime": 1778942069.6151478,
+    "hash": "a5dacef9832e04b1cc214c74264b2bfb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/pnpm-workspace.yaml": {
+    "mtime": 1778942069.8282113,
+    "hash": "f5f68f0530f1523041e8467c1c46178d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/README.md": {
+    "mtime": 1778942069.8004959,
+    "hash": "05c66c6d24887097ff08f1ef077b0a80"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/canonical-source/Data Dictionary _ Schema.md": {
+    "mtime": 1778942069.7923427,
+    "hash": "2c517712500e8c42597408c3c7385678"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/canonical-source/database-schema-v4.md": {
+    "mtime": 1778942069.7930815,
+    "hash": "11ff7457d9528d1cbdeb10110d81559c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/canonical-source/SCHEMA-IMPROVEMENTS.md": {
+    "mtime": 1778942069.792532,
+    "hash": "8d2839cda69e1f6061c8c9405cc5789a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/SCHEMA-COMPARISON.md": {
+    "mtime": 1778942069.7899535,
+    "hash": "a7ea51363a8af9506a0d1cadc565f31e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/SCHEMA-ENHANCEMENTS.md": {
+    "mtime": 1778942069.7901344,
+    "hash": "b17d563254d7c82bcd34f56d8f242e24"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/SCHEMA-REDESIGN-SUMMARY.md": {
+    "mtime": 1778942069.7913,
+    "hash": "5cf45b9efe2ede611ec3c5b56e1912c8"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/SCHEMA-MODULARITY-CHANGES.md": {
+    "mtime": 1778942069.7904313,
+    "hash": "48b47f96665ac92ed8178182f91bc24c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/existing_db.txt": {
+    "mtime": 1778942069.791601,
+    "hash": "7cf2e7624162d0f4bd07e4e316b0c8fa"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/SCHEMA-VERIFICATION-CHECKLIST.md": {
+    "mtime": 1778942069.7914674,
+    "hash": "d861caafa0eb7a1a273258561967b93a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/analysis/SCHEMA-MODULARITY-ANALYSIS.md": {
+    "mtime": 1778942069.7902699,
+    "hash": "c2b047d124eec32a4857df0f57ffb043"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/versions/database-schema-v3.md": {
+    "mtime": 1778942069.7945344,
+    "hash": "9f20d317343a59be46ee15c2ba06140d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/02-schema-and-data/versions/database-schema-v2.md": {
+    "mtime": 1778942069.7933874,
+    "hash": "eebedba07ea5be2fc52ac7a674dcb116"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/01-planning-docs/TECH-STACK-ROADMAP.md": {
+    "mtime": 1778942069.7885797,
+    "hash": "3b2028ab1459ea814815488cea2c6102"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/01-planning-docs/UI-DESIGN-GUIDE.md": {
+    "mtime": 1778942069.7887273,
+    "hash": "bdd8c2f59670fc2209b4f985bac31bff"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/01-planning-docs/QUICK-START.md": {
+    "mtime": 1778942069.7883153,
+    "hash": "e74cb66e44aaaf508ac4fa88773f8fb5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/01-planning-docs/USER-STORIES.md": {
+    "mtime": 1778942069.7890906,
+    "hash": "7ecafede9fa5c1795fd725fa78d8aadc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/01-planning-docs/PROJECT-STRUCTURE.md": {
+    "mtime": 1778942069.7880995,
+    "hash": "6488620ac81b27f643ab89b5345e33db"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/04-proposals-and-research/Project Proposal_ SureVax CMS (v2.0) Milestones.md": {
+    "mtime": 1778942069.797968,
+    "hash": "38b1d199f8aa8d2731442abec7efea2e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/04-proposals-and-research/Clinic Workflow Case Study Research.md": {
+    "mtime": 1778942069.7975514,
+    "hash": "d0d51bbc03b3e02a35fc43bd1d93f8a5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/04-proposals-and-research/Project Proposal_ SureVax CMS (v2.0).md": {
+    "mtime": 1778942069.798569,
+    "hash": "de848eff143e0a7e932a8ca85214c729"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/04-proposals-and-research/EMR Multi-Tenancy Database Design.md": {
+    "mtime": 1778942069.7977948,
+    "hash": "5b9bf1d3e5e0a67332a6e9a0daf84bcf"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/05-architecture-decisions/OPEN-SOURCE-INSPIRATIONS.md": {
+    "mtime": 1778942069.799309,
+    "hash": "10160e24941881630e48d758c103f49a"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/05-architecture-decisions/DESIGN-CONSIDERATIONS.md": {
+    "mtime": 1778942069.7987607,
+    "hash": "610dd1183cd6339ed01ce502dd86b82c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/05-architecture-decisions/VUE-VS-REACT-DECISION.md": {
+    "mtime": 1778942069.7994263,
+    "hash": "b2c361bd01c478fd090497c04bdc9af2"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/03-policies-and-compliance/Philippine Health Data Compliance Research.md": {
+    "mtime": 1778942069.7966602,
+    "hash": "30f31eef28cb909e117e54c34b677c93"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/03-policies-and-compliance/DEPENDENCY-POLICY.md": {
+    "mtime": 1778942069.7957728,
+    "hash": "f0f4e7137d7f39883c807bcbb26db17e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/03-policies-and-compliance/DEPLOYMENT-STRATEGY.md": {
+    "mtime": 1778942069.795949,
+    "hash": "65b1280886eaa8d03a9ddc22c1da7c2c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/06-tech-stack-iterations/TECH-STACK-MAINTAINABILITY-FIRST.md": {
+    "mtime": 1778942069.8003771,
+    "hash": "c7a2e1951828646bf4a267d63871498d"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/archive/06-tech-stack-iterations/REACT-TECH-STACK.md": {
+    "mtime": 1778942069.8002198,
+    "hash": "b50db35c041153efa5577fbb1ee502cc"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ENVIRONMENTS.md": {
+    "mtime": 1778942069.8032262,
+    "hash": "6129cfb06328b9e927a7a04a66fc6865"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/DESIGN.md": {
+    "mtime": 1778942069.8013237,
+    "hash": "8bd901315dfcb0e729e095eb97a5e881"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/handovers/2026-05-06-orchestrate-waves-3-4-handover.md": {
+    "mtime": 1778942069.8086796,
+    "hash": "83856a156ac48c6c3e1bc791dd9d78d1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/handovers/2026-04-28-design-density-handover.md": {
+    "mtime": 1778942069.8068376,
+    "hash": "4a7a217c851d69831b255080a554a5b2"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/handovers/2026-05-01-schema-v2-phase1.md": {
+    "mtime": 1778942069.8079145,
+    "hash": "1728e0522b598a939ef7b4d566a175e5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/handovers/2026-05-10-search-first-and-day-scope.md": {
+    "mtime": 1778942069.809237,
+    "hash": "d951878cc7d8682c346248099c1edf86"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/handovers/2026-05-02-scheduled-orders-handover.md": {
+    "mtime": 1778942069.8082967,
+    "hash": "540903dd5b07d1613efb25b79a033d19"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/handovers/2026-05-06-orchestrate-session-handover.md": {
+    "mtime": 1778942069.8085115,
+    "hash": "a0395744e0b8c5dfcdd14af848a43238"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/security/SECURITY_REVIEW_2026-04-25.md": {
+    "mtime": 1778942069.8109157,
+    "hash": "13cf1365658c5e3c0a557722d1ce4917"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/specs/schema-v2-redesign.md": {
+    "mtime": 1778942069.8113418,
+    "hash": "6a0eee90f5e0c1466162d0b0a2c8b13c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/specs/surevax-cms-v2/requirements.md": {
+    "mtime": 1778942069.8115747,
+    "hash": "72e70d7799b013cb557e9c6f75ce218e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/runbooks/break-glass.md": {
+    "mtime": 1778942069.8102775,
+    "hash": "fbe54e291c0f5e4f3b858c9c00beecd4"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/runbooks/phase4-drops.md": {
+    "mtime": 1778942069.8103895,
+    "hash": "bf72e65cf206ee568cf6211f8b066f5b"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/02-BACKEND-API.md": {
+    "mtime": 1778942069.804967,
+    "hash": "ac5aef2bdb8e904764834a736f4cb53e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/05-DEPENDENCY-POLICY.md": {
+    "mtime": 1778942069.805979,
+    "hash": "11efbcf78a2e10c7d8545e877bba2501"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/06-PRODUCT-WORKFLOWS.md": {
+    "mtime": 1778942069.8064034,
+    "hash": "0d03b74ec70353e5c92072c8dd420ec5"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/01-DATA-AND-COMPLIANCE.md": {
+    "mtime": 1778942069.8043418,
+    "hash": "382b284584396fc8f185fa84583d4d32"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/04-INFRASTRUCTURE-DEPLOYMENT.md": {
+    "mtime": 1778942069.8055832,
+    "hash": "0b49761979f7a4d20294e4c3df0eb3bb"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/03-FRONTEND-UI-UX.md": {
+    "mtime": 1778942069.805281,
+    "hash": "498489d86140465ac4326f4921286e9c"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/00-SYSTEM-CORE.md": {
+    "mtime": 1778942069.8033888,
+    "hash": "9b9a34f0eb81c7141989a283478887a1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/docs/ai-context/_INDEX.md": {
+    "mtime": 1778942069.8065908,
+    "hash": "dfc4b214e4133a77735763346411c13f"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/index.html": {
+    "mtime": 1778942069.6875052,
+    "hash": "820783e7306cfd0320881bf16366b93e"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/CLAUDE.md": {
+    "mtime": 1778942069.6866922,
+    "hash": "f38ac690e53a17609e090c04d75d81a1"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/docs/PATTERNS.md": {
+    "mtime": 1778942069.6874113,
+    "hash": "be8ae7dca05c0108bddaf45efb3e3e12"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/apps/frontend/docs/COMPONENT-MAP.md": {
+    "mtime": 1778942069.6869695,
+    "hash": "6c4c1a5a451577ba287cea140a815ffd"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/graphify-out/memory/query_20260508_105134_are_the_73_inferred__calls__edges_on_withtenanttx.md": {
+    "mtime": 1778942069.8209493,
+    "hash": "84ac6dfeb16764291b8a4d96ee2c9971"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/graphify-out/memory/query_20260508_105121_is_the_frontend_atomic_commit_pattern_semantically.md": {
+    "mtime": 1778942069.8208177,
+    "hash": "5af72e9716440b2a8f191aa51a083f85"
+  },
+  "/Users/njvil/Documents/Personal_Projects/surevax-cms-revamp/.claude/worktrees/nervous-babbage-a0443b/graphify-out/memory/query_20260508_105151_is_parsefloat___really_cross_cutting_between_backe.md": {
+    "mtime": 1778942069.82107,
+    "hash": "c1c6c102b74278c280cef8fd724fcf70"
+  }
+}
